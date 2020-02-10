@@ -29,6 +29,20 @@ public class Person {
         this.birthDate = birthDate;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", lastName='" + lastName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", address='" + address + '\'' +
+                ", emailAddress='" + emailAddress + '\'' +
+                ", birthDate=" + birthDate +
+                '}';
+    }
+
     // Getters
     public long getId() {
         return id;

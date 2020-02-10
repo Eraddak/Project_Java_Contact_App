@@ -6,6 +6,9 @@ public class Contacts {
 
     private ArrayList<Person> contacts = new ArrayList<Person>();
 
+    public Contacts(){
+    }
+
     public Contacts(ArrayList<Person> contacts) {
         this.contacts = contacts;
     }
