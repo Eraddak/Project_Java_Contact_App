@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -31,7 +33,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "model.Person{" +
                 "id=" + id +
                 ", lastName='" + lastName + '\'' +
                 ", firstName='" + firstName + '\'' +
