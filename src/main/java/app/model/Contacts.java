@@ -1,8 +1,8 @@
-package model;
+package app.model;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
 
 public class Contacts {
 
@@ -73,11 +73,11 @@ public class Contacts {
         this.contacts.get(index).setEmailAddress(newEmailAddress);
     }
 
-    public void changeBirthDate(Person person, Date newDate){
+    public void changeBirthDate(Person person, LocalDate newDate){
         int index = this.contacts.indexOf(person);
         this.contacts.get(index).setBirthDate(newDate);
     }
-    public void changeBirthDate(int index, Date newDate){
+    public void changeBirthDate(int index, LocalDate newDate){
         this.contacts.get(index).setBirthDate(newDate);
     }
 
